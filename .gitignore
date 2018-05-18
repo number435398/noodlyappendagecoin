@@ -1,0 +1,34 @@
+src/*.exe
+src/noodlyappendagecoin
+src/noodlyappendagecoind
+src/test_noodlyappendagecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.noodlyappendagecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+noodlyappendagecoin-qt
+Noodlyappendagecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+noodlyappendagecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
