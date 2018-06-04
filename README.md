@@ -1,3 +1,12 @@
+UPDATE 06-04-2018:
+
+Updated code to have checkpoints.
+Removed free transactions, minimum fee is now .001 NDL
+
+Always create a backup your wallet.dat file before swtiching wallets!
+
+
+
 Noodlyappendagecoin integration/staging tree
 ===========================================
 
